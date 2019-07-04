@@ -1,17 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:
-#
-# Created:     04/07/2019
-# Copyright:   (c) phil.liu.20346 2019
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
 
 import bottle
 import url_history_db
@@ -39,10 +28,7 @@ def execute_api_action(action):
     else:
         return {"result":API_Action_Map[action]()}
 
-    
-
-
-
+ 
 
 def main():
     bottle.debug(True)

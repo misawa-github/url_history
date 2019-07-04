@@ -1,20 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-#-------------------------------------------------------------------------------
-# Name:
-# Purpose:
-#
-# Author:
-#
-# Created:     20/06/2019
-# Copyright:   (c) phil.liu.20346 2019
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
 
 import time
 import threading
 import apsw
+
 
 #Note: 1. Database本身不做任何網址重複性檢查
 #Note: 2. 上層程式必須要紀錄每頁的最後一筆紀錄的rowid
